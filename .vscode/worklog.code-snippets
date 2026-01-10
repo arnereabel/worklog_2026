@@ -1,0 +1,30 @@
+{
+	"Worklog Project Entry": {
+		"prefix": "wlog",
+		"body": [
+			"### ${1:Title}",
+			"**Project:** ${2:Number} (${3:Name}) | **Part:** ${4:Number} (${5:Name})",
+			"*Tags: #${6:Tag}*",
+			"",
+			"*   $0"
+		],
+		"description": "Insert a formatted project worklog entry"
+	},
+	"Worklog Simple Entry": {
+		"prefix": "wlogs",
+		"body": [
+			"### ${1:Title}",
+			"*Tags: #${2:Tag}*",
+			"",
+			"*   $0"
+		],
+		"description": "Insert a simple worklog entry (no project details)"
+	},
+	"Worklog Image": {
+		"prefix": "wimg",
+		"body": [
+			"<a href=\"${1:Path}\"><img src=\"${1:Path}\" width=\"${2:100}\" title=\"Click to enlarge\" /></a>$0"
+		],
+		"description": "Insert a clickable thumbnail image"
+	}
+}
