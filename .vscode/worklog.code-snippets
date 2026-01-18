@@ -1,30 +1,152 @@
 {
-	"Worklog Project Entry": {
-		"prefix": "wlog",
-		"body": [
-			"### ${1:Title}",
-			"**Project:** ${2:Number} (${3:Name}) | **Part:** ${4:Number} (${5:Name})",
-			"*Tags: #${6:Tag}*",
-			"",
-			"*   $0"
-		],
-		"description": "Insert a formatted project worklog entry"
-	},
-	"Worklog Simple Entry": {
-		"prefix": "wlogs",
-		"body": [
-			"### ${1:Title}",
-			"*Tags: #${2:Tag}*",
-			"",
-			"*   $0"
-		],
-		"description": "Insert a simple worklog entry (no project details)"
-	},
-	"Worklog Image": {
-		"prefix": "wimg",
-		"body": [
-			"<a href=\"${1:Path}\"><img src=\"${1:Path}\" width=\"${2:100}\" title=\"Click to enlarge\" /></a>$0"
-		],
-		"description": "Insert a clickable thumbnail image"
-	}
+    "Worklog Project Entry": {
+        "prefix": "wlog",
+        "body": [
+            "**Project:** ${2:Number} (${3:Name}) | **Part:** ${4:Number} (${5:Name})",
+            "*Tags: #${6:Tag}*",
+            "",
+            "*   $0"
+        ],
+        "description": "Insert a formatted project worklog entry"
+    },
+    "Worklog Simple Entry": {
+        "prefix": "wlogs",
+        "body": [
+            "### ${1:Title}",
+            "*Tags: #${2:Tag}*",
+            "",
+            "*   $0"
+        ],
+        "description": "Insert a simple worklog entry (no project details)"
+    },
+    "Worklog Image": {
+        "prefix": "wimg",
+        "body": [
+            "<a href=\"${1:Path}\"><img src=\"${1:Path}\" width=\"${2:100}\" title=\"Click to enlarge\" /></a>$0"
+        ],
+        "description": "Insert a clickable thumbnail image"
+    },
+    "Worklog Week Header": {
+        "prefix": "wweek",
+        "body": [
+            "# Work Log 2026 week ${1:Number}",
+            "",
+            "## ${2:DD}/${3:MM}/2026",
+            "",
+            "$0"
+        ],
+        "description": "Insert a weekly worklog file header"
+    },
+    "Worklog New Week Template": {
+        "prefix": "wnew",
+        "body": [
+            "# Work Log 2026 week ${1:WeekNum}",
+            "",
+            "---",
+            "## ${2:DD}/${3:01}/2026",
+            "",
+            "### Cloos",
+            "",
+            "*   ",
+            "",
+            "### Yaskawa",
+            "",
+            "*   ",
+            "",
+            "### Teqram",
+            "",
+            "*   ",
+            "",
+            "---",
+            "## ${4:DD}/${5:01}/2026",
+            "",
+            "### Cloos",
+            "",
+            "*   ",
+            "",
+            "### Yaskawa",
+            "",
+            "*   ",
+            "",
+            "### Teqram",
+            "",
+            "*   ",
+            "",
+            "---",
+            "## ${6:DD}/${7:01}/2026",
+            "",
+            "### Cloos",
+            "",
+            "*   ",
+            "",
+            "### Yaskawa",
+            "",
+            "*   ",
+            "",
+            "### Teqram",
+            "",
+            "*   ",
+            "",
+            "---",
+            "## ${8:DD}/${9:01}/2026",
+            "",
+            "### Cloos",
+            "",
+            "*   ",
+            "",
+            "### Yaskawa",
+            "",
+            "*   ",
+            "",
+            "### Teqram",
+            "",
+            "*   ",
+            "",
+            "---",
+            "## ${10:DD}/${11:01}/2026",
+            "",
+            "### Cloos",
+            "",
+            "*   ",
+            "",
+            "### Yaskawa",
+            "",
+            "*   ",
+            "",
+            "### Teqram",
+            "",
+            "*   ",
+            "",
+            "---",
+            "## ${12:DD}/${13:01}/2026",
+            "",
+            "### Cloos",
+            "",
+            "*   ",
+            "",
+            "### Yaskawa",
+            "",
+            "*   ",
+            "",
+            "### Teqram",
+            "",
+            "*   ",
+            "",
+            "---",
+            "## ${14:DD}/${15:01}/2026",
+            "",
+            "### Cloos",
+            "",
+            "*   ",
+            "",
+            "### Yaskawa",
+            "",
+            "*   ",
+            "",
+            "### Teqram",
+            "",
+            "*   $0"
+        ],
+        "description": "Insert a full 7-day week template with Cloos, Yaskawa, Teqram sections"
+    }
 }
